@@ -1,24 +1,6 @@
-# crawler
+# summer-camp-crawler-front
+[同名程序](https://github.com/Tyrion517/summer-camp-crawler)的前端
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 拓展方式
+1. 修改ListData.vue中的map参数，补充中英对应关系
+2. 修改app.vue，添加新的el-menu-item
