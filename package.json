@@ -8,8 +8,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "child_process": "^1.0.2",
+    "child-process": "^1.0.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "element-plus": "^2.3.6",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "python-shell": "^5.0.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -39,5 +49,8 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "browser": {
+    "child_process": false
+  }
 }
